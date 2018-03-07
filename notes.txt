@@ -1,0 +1,46 @@
+Dependencies:  
+
+'prop-types':  Runtime typechecking for react component properties.  You can use prop-types to document the intended types of properties passed to components. React (and potentially other libraries—see the checkPropTypes() reference below) will check props passed to your components against those definitions, and warn in development if they don’t match.
+
+'react'
+
+'react-dom'
+
+
+DevDependencies:
+
+'babel-core': The babel transpiler core functionality.  
+
+'babel-loader': This package allows transpiling JavaScript files using Babel and webpack.  Within your webpack configuration object, you'll need to add the babel-loader to the list of modules.  You can pass options to the loader by using the options property.
+
+'babel-preset-es2015' :
+
+'babel-preset-react': Babel preset for all React plugins
+
+'html-webpack-plugin': This allows us to programmatically generate our index.html file using webpack.
+
+'react-hot-loader': React Hot Loader is a plugin that allows React components to be live reloaded without the loss of state. It works with Webpack and other bundlers that support both Hot Module Replacement (HMR) and Babel plugins.
+
+'webpack': module bundler
+
+'webpack-dev-server' : 'webpack-dev-server' runs the server and also bundles our code.  So we no longer have to run 'webpack' before launching our server.
+
+'eslint':
+
+'eslint-plugin-react': Our linter doesn't fully understand JSX. It isn't recognizing JSX syntax to render components like this: <TicketList /> as "use" of a variable.  We just need to add linting rules that take advantage of this React-specfic ESLint plugin! This will help ESLint better understand our JSX code.
+
+
+
+
+
+'eslint-loader' :  ESLint is a open-source javascript linting utility.  Linting is a type of static analysis that is frequently used to find problematic patterns or code that doesn't adhere to certain syle guidelines or best practices.  Linting tools allow javascript developers to discover problems without having to execute their code.  ESLint allows developers to create their own linting rules.  
+
+
+
+
+
+
+
+
+
+
